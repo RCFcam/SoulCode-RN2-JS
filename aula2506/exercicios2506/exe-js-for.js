@@ -48,8 +48,6 @@ for (let n = 3;n <=10;n++) {
 }
 
 
-
-
 //-----//
 //3. Escreva um programa que use um laço for para imprimir na tela os números de 10 a 1 (em ordem decrescente).//
 //resposta//
@@ -58,7 +56,6 @@ for (let n = 3;n <=10;n++) {
 for (let const3 = 10; const3 > 0; const3--) {
     console.log(const3);
 }
-
 
 
 //-----//
@@ -76,8 +73,6 @@ console.log(`Fatorial de ${conste4} é ${fatori4}`);
 
 
 
-
-
 //-----//
 //5. Crie um programa que exiba todos os números múltiplos de 7 de 1 a 100 usando um loop for e uma estrutura condicional if para verificar se cada número é múltiplo de 7.//
 //resposta//
@@ -87,7 +82,6 @@ for (let numero = 1; numero <= 100; numero++) {
         console.log(numero);  // Mostra o número
     }
 }
-
 
 
 //-----//
@@ -101,7 +95,6 @@ for (let numero = 50; numero <= 100; numero++) {
 }
 
 console.log(`A soma de 50 até 100 é ${soma}`);  // Mostra o resultado
-
 
 
 //-----//
