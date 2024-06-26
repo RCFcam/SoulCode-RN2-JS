@@ -5,9 +5,14 @@ Prof. José Almir */
 //1. Faça a tabuada completa utilizando o loop for.//
 //resposta//
 
-for (let const1 = 1; const1 <= 10; const1++) {
-    console.log(`Tabuada do ${}:`);
+for (let multiplicador = 1; multiplicador <= 10; multiplicador++) { // Loop para cada número de 1 a 10
+    console.log("Tabuada do " + multiplicador + ":"); // Imprime qual tabuada estamos fazendo
 
+    for (let i = 1; i <= 10; i++) { // Loop para multiplicar de 1 a 10
+        console.log(multiplicador + " x " + i + " = " + (multiplicador * i)); // Imprime o resultado da multiplicação
+    }
+
+    console.log("======================"); // Linha em branco para separar as tabuadas
 }
 
 
@@ -69,8 +74,6 @@ for (let n =1; n <= conste4; n++) {
 
 console.log(`Fatorial de ${conste4} é ${fatori4}`);
 
-
-//correção do prof:
 
 
 
