@@ -5,8 +5,8 @@
 // 1. Crie uma função que recebe um array com os nomes dos alunos de uma turma, e outro array que recebe a lista de presença com os nomes. Retorne uma lista com quais alunos faltaram.
 //Resposta//
 
-let todosOsAlunos = ["Ana", "João", "Maria", "Pedro", "Gustavo", "Igor"];
-let alunosPresentes = ["Ana", "Maria", "Pedro", "Igor"];
+let todosOsAlunos = ["Pablo", "Batista", "Lucia", "Carlos", "Gustavo", "Igor"];
+let alunosPresentes = ["Pablo", "Carlos", "Igor"];
 
 /*Função : Formula para aplicação da função */
 function quemFaltou(nomesDosAlunos, AlunosPresentes) {
@@ -30,7 +30,7 @@ console.log(alunosQuefaltaram);  // Chamando a resposta da função com o cálcu
 //Resposta//
 
 
-let numeros = [4, 6, 8, 9, 5];
+let numeros = [4, 88, 8, 75, 5];
 
 function numquadrados(numeros) {
     let elvQuadrado = [];
