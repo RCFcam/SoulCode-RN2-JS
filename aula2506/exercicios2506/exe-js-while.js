@@ -56,7 +56,7 @@ console.log(" O total de números divisíveis por 9 entre 1 e 1000: " + contador
 
 
 
-//correção professor abaixo //
+//correção  pelo professor abaixo //-------------------------------------------------------------
 
 // 1. Use um laço while para imprimir na tela todos os números pares de 2 a 10.
 let cont = 2;
