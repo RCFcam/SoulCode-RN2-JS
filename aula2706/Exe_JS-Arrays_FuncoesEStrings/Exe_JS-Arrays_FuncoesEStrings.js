@@ -145,25 +145,63 @@ console.log("Os dois ultimos digitos são: "+ digitosVerificadores);
 // 8. Crie uma função que inverte uma string. Retorna ela invertida.
 //Resposta//
 
+function inverterString(str) {
+    let arrayDeCaracteres = str.split('');
+    let arrayInvertido = arrayDeCaracteres.reverse();
+    let stringInvertida = arrayInvertido.join('');
+    return stringInvertida;
+}
+
+let exemplo = "Meu mundo caiu de pé!";
+let exemploInvertido = inverterString(exemplo);
+console.log(exemploInvertido); 
 
 //---------//
 
 // 9. Escreva uma função que receba uma palavra e um número. Retorne a palavra repetida a quantidade de vezes indicada pelo segundo parâmetro. Exemplo: repetir("batata", 3) -> "batatabatatabatata". OBS: Utilize um loop para resolver.
 //Resposta//
 
+function repetir(palavra, numero) {
+    let resultado = "";
+    
+    for (let i = 0; i < numero; i++) {
+        resultado += palavra; // Adicione a palavra ao resultado
+    }
+    return resultado;
+}
+let palavraRepetida = repetir("batata", 3);
+console.log(palavraRepetida)
 
 //---------//
 
 // 10. Escreva uma função que receba duas strings e retorne true se elas forem iguais ou false caso contrário.
 //Resposta//
 
-
+function saoIguaisouNao(string1, string2) {
+    if (string1 === string2) {
+        return true; 
+    } else {
+        return false; 
+    }
+}
+let resultado1 = saoIguaisouNao("tostines", "tostines");
+console.log(resultado1); 
+let resultado2 = saoIguaisouNao("kibom", "prestigio");
+console.log(resultado2); 
 
 //---------//
 
 // 11. Crie uma função que recebe um dia, mês e ano dentro de um array. Retorna a data utilizando o separador que também será definido via parâmetros da função (-, / ou .). Ex: formatarData(array, '.') -> '20.06.2000'
 //Resposta//
 
+function formatarData(dataArray, separador) {
+    let dataFormatada = dataArray.join(separador);
+    return dataFormatada;
+}
+let data = [20, 6, 2000];
+let separador = '/';
+let dataFormatada = formatarData(data, separador);
+console.log(dataFormatada); 
 
 
 //---------//
@@ -172,7 +210,20 @@ console.log("Os dois ultimos digitos são: "+ digitosVerificadores);
 
 //Resposta//
 
+function busca(array, valorDeBusca, valorPadrao) {
+    if (array.includes(valorDeBusca)) {
+        return valorDeBusca; 
+    } else {
+        return valorPadrao;
+    }
+}
+
+let frutas = ["maçã", "banana", "laranja","Mico leão",];
+let resultado1 = busca(frutas, "banana", "não tem banana");
+console.log(resultado1); 
+
+let resultado2 = busca(frutas, "batata", "não tem batata");
+console.log(resultado2); 
 
 
 //---------//
-
