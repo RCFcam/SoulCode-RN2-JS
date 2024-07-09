@@ -73,9 +73,9 @@ console.log(palavraEspecial.split("").reverse().join(""));
 // indexOf -> retornar o índice de um elemento
 let figuras = ["coração", "estrela", "ok", "não", "joinha", "sorriso"];
 
-//console.log(figuras.indexOf("ok"));
-//console.log(figuras.indexOf("joinha"));
-//console.log(figuras.indexOf("batata")); // -1 -> não encontrou o elemento no array
+console.log(figuras.indexOf("ok"));
+console.log(figuras.indexOf("joinha"));
+console.log(figuras.indexOf("batata")); // -1 -> não encontrou o elemento no array
 
 let fig1 = figuras.slice(1, 3)
 console.log(fig1);

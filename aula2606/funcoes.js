@@ -50,6 +50,8 @@ soma(10, 8);
 soma(40, 5);
 soma(33, 4);
 
+
+//----------------------------
 function calcularMedia(n1, n2, n3) {
     let resultado = (n1 + n2 + n3) / 3;
     console.log(`A média é ${resultado}`);
